@@ -21,7 +21,7 @@ public class MyController {
     @RequestMapping(value = "/greet/{name}", method = RequestMethod.GET)
     @ResponseStatus(value = HttpStatus.OK)
     public String sayHelloToName(@PathVariable String name) {
-        return "Wghats happening , " +name;
+        return "What's happening , " +name;
     }
 
 }
